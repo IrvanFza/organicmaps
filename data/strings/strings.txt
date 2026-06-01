@@ -7169,8 +7169,8 @@ zh-Hans = 如果您现在听不到声音，请检查音量或系统文本到语�
 zh-Hant = 如果您現在聽不到聲音，請檢查音量或系統文字轉語音系統的設定。
 
 [pref_tts_unavailable]
-comment = Settings «Route» category: «Tts unavailable» subtitle
-tags = android-app
+comment = Settings «Route» category: «Tts unavailable» subtitle. Also used as a CarToast in Android Auto when the user taps the muted voice icon.
+tags = android-app,android-libs-car
 en = Not Available
 af = Nie beskikbaar
 ar = غير متاح
