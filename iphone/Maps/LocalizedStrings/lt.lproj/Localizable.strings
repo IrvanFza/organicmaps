@@ -218,6 +218,27 @@
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */
 "pref_map_3d_buildings_disabled_summary" = "Trimačiai pastatai yra išjungti energijos taupymo veiksenoje";
 
+/* Settings: title of the custom raster background map tiles screen */
+"pref_bg_tiles_title" = "Background Map tiles";
+
+/* Settings «Background Map tiles»: switch that turns the custom tiles layer on/off */
+"pref_bg_tiles_enable_title" = "Show custom tiles";
+
+/* Settings «Background Map tiles»: title of the tile source URL input field */
+"pref_bg_tiles_url_title" = "Tile URL";
+
+/* Settings «Background Map tiles»: example placeholder shown in the empty tile URL field */
+"pref_bg_tiles_url_hint" = "https://xxx.yyy/{z}/{x}/{y}.png";
+
+/* Settings «Background Map tiles»: title of the on-disk tile cache size limit (in megabytes) */
+"pref_bg_tiles_size_title" = "Cache size (MB)";
+
+/* Settings «Background Map tiles»: opacity of vector area objects drawn over the imagery (0% hides them) */
+"pref_bg_tiles_opacity_title" = "Area objects opacity";
+
+/* Settings «Background Map tiles»: legal note that the user is responsible for the custom tile source they configure */
+"pref_bg_tiles_disclaimer" = "Custom tile sources are provided by you. Use only services you are allowed to access. You are responsible for attribution, license terms, API keys, quotas, and usage limits.";
+
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_enable_title" = "Balso instrukcijos";
 

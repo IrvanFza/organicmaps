@@ -219,6 +219,20 @@
     <string name="pref_map_3d_buildings_title">3D buildings</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
     <string name="pref_map_3d_buildings_disabled_summary">3D buildings are disabled in power saving mode</string>
+    <!-- Settings: title of the custom raster background map tiles screen -->
+    <string name="pref_bg_tiles_title">Background Map tiles</string>
+    <!-- Settings «Background Map tiles»: switch that turns the custom tiles layer on/off -->
+    <string name="pref_bg_tiles_enable_title">Show custom tiles</string>
+    <!-- Settings «Background Map tiles»: title of the tile source URL input field -->
+    <string name="pref_bg_tiles_url_title">Tile URL</string>
+    <!-- Settings «Background Map tiles»: example placeholder shown in the empty tile URL field -->
+    <string name="pref_bg_tiles_url_hint">https://xxx.yyy/{z}/{x}/{y}.png</string>
+    <!-- Settings «Background Map tiles»: title of the on-disk tile cache size limit (in megabytes) -->
+    <string name="pref_bg_tiles_size_title">Cache size (MB)</string>
+    <!-- Settings «Background Map tiles»: opacity of vector area objects drawn over the imagery (0% hides them) -->
+    <string name="pref_bg_tiles_opacity_title">Area objects opacity</string>
+    <!-- Settings «Background Map tiles»: legal note that the user is responsible for the custom tile source they configure -->
+    <string name="pref_bg_tiles_disclaimer">Custom tile sources are provided by you. Use only services you are allowed to access. You are responsible for attribution, license terms, API keys, quotas, and usage limits.</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Voice Instructions</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
