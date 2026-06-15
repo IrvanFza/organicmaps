@@ -119,7 +119,7 @@ extension GlobalStyleSheet: IStyleSheet {
         s.tintColor = .whitePrimaryText
         s.backgroundImage = UIImage()
         s.shadowImage = UIImage()
-        s.fontStyle = .dynamic(.header)
+        s.fontStyle = .fixed(.header)
         s.fontColor = .whitePrimaryText
       }
     case .navigationBarItem:

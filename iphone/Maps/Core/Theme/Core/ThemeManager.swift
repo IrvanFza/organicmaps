@@ -5,6 +5,10 @@ final class ThemeManager: NSObject {
 
   override private init() {
     super.init()
+    NotificationCenter.default.addObserver(self,
+                                           selector: #selector(contentSizeCategoryDidChange),
+                                           name: UIContentSizeCategory.didChangeNotification,
+                                           object: nil)
   }
 
   private func update(theme: MWMTheme) {
@@ -53,6 +57,10 @@ final class ThemeManager: NSObject {
 
   @objc static func invalidate() {
     instance.update(theme: Settings.theme())
+  }
+
+  @objc private func contentSizeCategoryDidChange() {
+    StyleManager.shared.update()
   }
 
   private func updateSystemUserInterfaceStyle(_ theme: MWMTheme) {
