@@ -6767,6 +6767,41 @@ vi = Tòa nhà 3D bị tắt ở chế độ tiết kiệm năng lượng
 zh-Hans = 3D 建筑在省电模式下处于关闭状态
 zh-Hant = 3D 建築在省電模式下將會關閉
 
+[pref_bg_tiles_title]
+comment = Settings: title of the custom raster background map tiles screen
+tags = android-app,apple-maps
+en = Background Map tiles
+
+[pref_bg_tiles_enable_title]
+comment = Settings «Background Map tiles»: switch that turns the custom tiles layer on/off
+tags = android-app,apple-maps
+en = Show custom tiles
+
+[pref_bg_tiles_url_title]
+comment = Settings «Background Map tiles»: title of the tile source URL input field
+tags = android-app,apple-maps
+en = Tile URL
+
+[pref_bg_tiles_url_hint]
+comment = Settings «Background Map tiles»: example placeholder shown in the empty tile URL field
+tags = android-app,apple-maps
+en = https://xxx.yyy/{z}/{x}/{y}.png
+
+[pref_bg_tiles_size_title]
+comment = Settings «Background Map tiles»: title of the on-disk tile cache size limit (in megabytes)
+tags = android-app,apple-maps
+en = Cache size (MB)
+
+[pref_bg_tiles_opacity_title]
+comment = Settings «Background Map tiles»: opacity of vector area objects drawn over the imagery (0% hides them)
+tags = android-app,apple-maps
+en = Area objects opacity
+
+[pref_bg_tiles_disclaimer]
+comment = Settings «Background Map tiles»: legal note that the user is responsible for the custom tile source they configure
+tags = android-app,apple-maps
+en = Custom tile sources are provided by you. Use only services you are allowed to access. You are responsible for attribution, license terms, API keys, quotas, and usage limits.
+
 [pref_tts_enable_title]
 comment = Settings «Route» category: «Tts enabled» title
 tags = android-app,apple-maps
